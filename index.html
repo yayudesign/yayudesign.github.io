@@ -1,10 +1,295 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-	<title>test</title>
+	<meta charset="UTF-8">
+	<title>伢鱼的作品集</title>
+	<link rel="stylesheet" href="src/swiper.min.css">
+	<link rel="stylesheet" href="src/base.css">
+	<script type="text/javascript" src="src/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="src/swiper.min.js"></script>
+	<script type="text/javascript" src="src/lottie-5.5.7.min.js"></script>
+	<script type="text/javascript" src="src/base.js"></script>
 </head>
-<body>
-	<h1>testing</h1>
-	<img src="img/test.jpg" />
+
+<body class="resume">
+
+	<div class="main-wrap">
+
+		<div class="side-nav">
+			<div class="logo">
+				<img src="img/logo.png" alt="">
+				<h1 class="heavy green">伢鱼<span class="en yellow">de</span>作品集</h1>
+			</div>
+			
+			<nav>
+				<p class="active" id="nav-resume" data-en='Personal Resume'>
+					<i class="icon" id="icon-resume"></i>
+					<span class="main-text">个人简历</span>
+				</p>
+
+				<div class="line-horiz"></div>
+
+				<p class="nav-design" id="user_interface" data-en="User Interface">
+					<i class="icon" id="icon-ui"></i>
+					<span class="main-text">UI设计</span>
+					<span class="count">5</span>
+				</p>
+				<p class="nav-design" id="web_design" data-en="Web Design">
+					<i class="icon" id="icon-web"></i>
+					<span class="main-text">Web设计</span>
+					<span class="count">3</span>
+				</p>
+				<p class="nav-design" id="h5&splash" data-en="H5&Splash">
+					<i class="icon" id="icon-h5"></i>
+					<span class="main-text">H5活动</span>
+					<span class="count">5</span>
+				</p>
+				<p class="nav-design" id="theme_design" data-en="Theme Design">
+					<i class="icon" id="icon-theme"></i>
+					<span class="main-text">主题设计</span>
+					<span class="count">5</span>
+				</p>
+
+				<div class="line-horiz"></div>
+
+				<p id="nav-contact" data-en="Contact">
+					<i class="icon" id="icon-contact"></i>
+					<span class="main-text">联系方式</span>
+				</p>
+			</nav>
+		</div>
+
+		<div class="main-content">
+
+			<h2 class="heavy green"><span class="cn">个人简历</span><span class="en yellow">Personal Resume</span></h2>
+
+			<div class="round bg-yellow"></div>
+
+			<div class="portrait">
+				<div class="img-wrap">
+					<img src="img/portrait.png" alt="">
+				</div>
+
+				<div class="btn">
+					<i class="icon round bg-green">
+						<img src="img/arrow_right.png" alt="">
+					</i>
+					<p class="green">查看作品</p>
+				</div>
+
+			</div>
+
+			<div class="round bg-green"></div>
+
+			<div class="articles">
+				
+				<article class="self-intro">
+
+					<h3 class="name">
+						<span class="heavy green">许广瑜</span>
+						<span class="yellow">Fish Xu</span>
+					</h3>
+
+					<p class="sub-title green">
+						<span>6年工作经验 / 本科 / 28岁</span>
+						<span class="position">UI Designer</span>
+					</p>
+
+					<img src="img/icons_skills.png" alt="">
+
+					<p class="primary">
+						精通：Ps、Ai、Ae、Sketch、Axure、Protopie、HTML、CSS、JS
+					</p>
+
+					<div class="tags green">
+						<span>英语六级</span>
+						<span>界面设计</span>
+						<span>动效制作</span>
+						<span>前端开发</span>
+						<span>原型制作</span>
+					</div>
+
+					<ul class="primary">
+						<li>项目经验丰富，多个作品获UI中国首页推荐；</li>
+						<li>精通动效制作，善于把动效应用到落地项目中；</li>
+						<li>精通HTML和CSS样式表，与前后端开发沟通无障碍，完美还原设计效果；</li>
+						<li>主动学习能力强，利用业余时间丰富设计技能。</li>
+					</ul>
+
+				</article>
+
+				<article class="ex-work">
+					
+					<h3 class="heavy green">工作履历</h3>
+					
+					<img src="img/company_cume.png" width="17" alt="">
+					<h4 class="green">2015.11-现在  广州炒米信息科技有限公司</h4>
+					<p class="primary">负责公司区块链云盘“BitDisk”、虚拟货币项目“BitRice比特米”、智能硬件“私家云”、工具类应用“Facein照片管家”的APP界面、PC端界面、官网、大数据可视化、宣传视频、物料设计等；<br/>负责公司部分前端开发工作，包括但不限于制作高保真原型、官网页面、推广H5等；<br/>获公司2016年度优秀员工。</p>
+
+					<img src="img/company_dayang.png" width="43" alt="">
+					<h4 class="green">2014.03-2015.09  广州市大洋信息技术股份有限公司</h4>
+					<p class="primary">负责公司旗下教育平台产品“酷校”和“掌上学园”网页端和APP端原型制作、界面设计；<br/>负责公司活动推广页面的设计和前端开发。</p>
+
+					<img src="img/company_coolpad.png" width="32" alt="">
+					<h4 class="green">2013.08-2014.02  深圳酷派手机</h4>
+					<p class="primary">先后在公司用户体验部和互联网中心坦任UI设计一职；<br/>负责“游戏中心”应用界面设计和日常运营物料设计。</p>
+
+					<img src="img/company_gdut.png" width="13" alt="">
+					<h4 class="green">2009.09-2013.06  广东工业大学</h4>
+					<p class="primary">本科毕业，主修工业设计专业。</p>
+
+				</article>
+
+				<article class="hobby">
+					<h3 class="heavy green">兴趣爱好</h3>
+					<ul>
+						<li>
+							<img src="img/hobby_guitar.png" alt="">
+							<p class="primary">吉他</p>
+						</li>
+						<li>
+							<img src="img/hobby_reading.png" alt="">
+							<p class="primary">阅读</p>
+						</li>
+						<li>
+							<img src="img/hobby_camera.png" alt="">
+							<p class="primary">摄影</p>
+						</li>
+						<li>
+							<img src="img/hobby_pet.png" alt="">
+							<p class="primary">宠物</p>
+						</li>
+						<li>
+							<img src="img/hobby_running.png" alt="">
+							<p class="primary">跑步</p>
+						</li>
+						<li>
+							<img src="img/hobby_badminton.png" alt="">
+							<p class="primary">羽毛球</p>
+						</li>
+					</ul>
+				</article>
+
+			</div>
+
+			<div class="swiper-container banner hide">
+
+			    <div class="swiper-wrapper">
+
+			        <div class="swiper-slide">
+			        	<img src="" alt="">
+			        </div>
+
+			    </div>
+			    
+			</div>
+
+		    <div class="nav-btn prev hide">
+			    <i class="icon round">
+					<img src="img/nav_prev.png" alt="">
+			    </i>
+		    </div>
+
+		    <div class="nav-btn next hide">
+			    <i class="icon round">
+					<img src="img/nav_next.png" alt="">
+			    </i>
+		    </div>
+
+			<div class="pics hide">
+
+				<p class="desc primary">
+				</p>
+				
+				<p class="bottom-hint">
+					<em>我是有底线的</em>
+					<span class="line-horiz"></span>
+				</p>
+			</div>
+
+
+			<div class="title-bar hide">
+
+				<p class="en green">01</p>
+
+				<div class="btn">
+					<p class="green">作品详情</p>
+					<div class="icon-wrap">
+						<i class="icon round bg-green right">
+							<img src="img/arrow_down.png" alt="">
+						</i>
+					</div>
+				</div>
+
+				<h2 class="visible">标题</h2>
+				<h2 class="invisible">标题</h2>
+				<p class="primary">
+					<span class="type">作品类型</span>
+					<span class="sub-title">副标题</span>
+				</p>
+
+			    <div class="swiper-pagination"></div>
+
+			    <div class="loading">
+			    	<div class="progress"></div>
+			    </div>
+
+			</div>
+
+			<div class="contact hide">
+
+				<div class="middle">
+
+					<img class="illu" src="img/contact_illu.png" alt="">
+
+					<p class="bubble heavy green">
+						生存不易 (T~T)，<br/>有工作机会请尽管联系!
+						<img src="img/bubble_triangle.png" alt="">
+					</p>
+
+					<div class="contact-info">
+
+						<ul>
+							<li>
+								<img src="img/icon_phone.png" />
+								<p>手机：18589075940</p>
+							</li>
+							<li>
+								<img src="img/icon_mail.png" />
+								<p>邮箱：xgyuuuang@163.com</p>
+							</li>
+							<li>
+								<img src="img/icon_wechat.png" />
+								<p>微信：fxxxish</p>
+							</li>
+						</ul>
+
+						<div class="sns">
+							<a href="https://yayu.ui.cn/" target="_blank" title="https://yayu.ui.cn/">
+								<img src="img/sns_uicn.png" alt="">
+								<img src="img/sns_uicn_color.png" alt="">
+							</a>
+							<a href="https://yayudesign.zcool.com.cn/" target="_blank" title="https://yayudesign.zcool.com.cn/">
+								<img src="img/sns_zcool.png" alt="">
+								<img src="img/sns_zcool_color.png" alt="">
+							</a>
+							<!-- <a href="https://dribbble.com/fxxxish" target="_blank" title="https://dribbble.com/fxxxish">
+								<img src="img/sns_dribbble.png" alt="">
+								<img src="img/sns_dribbble_color.png" alt="">
+							</a> -->
+						</div>
+
+					</div>
+
+
+				</div>
+				
+			</div>
+
+		</div>
+
+	</div>
+	
 </body>
+	
 </html>
